@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MoshikFragment" >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:src="@drawable/moshikrot" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="40dp"
+        android:text="מושיק רוט" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@android:color/darker_gray"
+        android:text="שף מושיק רוט. בן 51, נשוי ואב לשניים. במקור מחיפה ואח&quot;כ אילת, אך עיקר פעולתו הקולינרית היתה בהולנד. בעל מסעדה שזכתה בשתי כוכבי מישלן(!!).  בין היתר שפט בתכנית &quot;משחקי השף&quot; יחד עם חבריו השופטים: אסף גרניט , רז רהב, ארז קומרובסקי, יוסי שטרית, ומאיר אדוני." />
+</LinearLayout>

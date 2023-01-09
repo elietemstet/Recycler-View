@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ErezFragment" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:src="@drawable/erezkomo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="40dp"
+        android:text="ארז קומרובסקי" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@android:color/darker_gray"
+        android:text="שף ארז קומרובסקי. בן 60. נולד בתל אביב, למד בישול בפריז, ביפן, ובסן פרנסיסקו. בעל המאפייה &quot;לחם ארז&quot; הקרויה על שמו, תומך בבישול מקומי וגלילי.   בין היתר שפט בתכנית &quot;משחקי השף&quot; יחד עם חבריו השופטים: אסף גרניט , רז רהב, מאיר אדוני, יוסי שטרית, ומושיק רוט." />
+</LinearLayout>

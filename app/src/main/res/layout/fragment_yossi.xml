@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".YossiFragment" >
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:src="@drawable/yossichitrit" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="יוסי שטרית"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@android:color/darker_gray"
+        android:text="שף יוסי שטרית , בן 44 , המשתייך לשורשיו המרוקאיים,  התחיל כמתופף בלהקת מטאל יחד עם חבריו מעיר מולדתו &quot;מעלות-תרשיחא&quot;. את אהבתו למטבח גילה בעת שירותו הצבאי, שם התחיל כטבח. לאחר שחרורו למד בבתי הספר הגבוהים לקולינריה בארץ ובעולם, ולאחמ&quot;כ החל את עבודתו כטבח במסעדות בארץ עד שהחל לפתוח מסעדות משלו ,  ביניהם &quot;ויולט&quot;,&quot;קיטשן מרקט&quot;,&quot;משייה&quot;,&quot;היבה&quot;.  בין היתר שפט בתכנית &quot;משחקי השף&quot; יחד עם חבריו השופטים: אסף גרניט , מושיק רוט, ארז קומרובסקי, רז רהב, ומאיר אדוני." />
+</LinearLayout>

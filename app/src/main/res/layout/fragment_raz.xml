@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RazFragment" >
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:src="@drawable/razrahav" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="40dp"
+        android:text="רז רהב" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="שף רז רהב, בן 31, במקור מקריית אונו, בן למשפחה הנמנית על יוצאי פולין. בעת שירותו הצבאי כלוחם הוא עבר פריצת דיסק מה שגרם לרופאיו לייעץ לו לרדת במשקל, וזה התפתח להפרעות אכילה עד כדי אנורקסיה. בעקבות זאת החל לבשל לעצמו ולהתעניין בקולינריה. בין המסעדות שפתח: &quot;OCD&quot;,&quot;ברווזי&quot;,&quot;tweezers&quot;,&quot;אפוי&quot;,&quot;תרצה&quot;.  בין היתר שפט בתכנית &quot;משחקי השף&quot; יחד עם חבריו השופטים: אסף גרניט , מושיק רוט, ארז קומרובסקי, יוסי שטרית, ומאיר אדוני."
+        android:textSize="20dp" />
+</LinearLayout>

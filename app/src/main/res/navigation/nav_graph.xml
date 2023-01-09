@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/yossiFragment">
+
+    <fragment
+        android:id="@+id/assafFragment"
+        android:name="com.example.myrvapp.AssafFragment"
+        android:label="fragment_assaf"
+        tools:layout="@layout/fragment_assaf" />
+    <fragment
+        android:id="@+id/erezFragment"
+        android:name="com.example.myrvapp.ErezFragment"
+        android:label="fragment_erez"
+        tools:layout="@layout/fragment_erez" />
+    <fragment
+        android:id="@+id/meirFragment"
+        android:name="com.example.myrvapp.MeirFragment"
+        android:label="fragment_meir"
+        tools:layout="@layout/fragment_meir" />
+    <fragment
+        android:id="@+id/moshikFragment"
+        android:name="com.example.myrvapp.MoshikFragment"
+        android:label="fragment_moshik"
+        tools:layout="@layout/fragment_moshik" />
+    <fragment
+        android:id="@+id/razFragment"
+        android:name="com.example.myrvapp.RazFragment"
+        android:label="fragment_raz"
+        tools:layout="@layout/fragment_raz" />
+    <fragment
+        android:id="@+id/yossiFragment"
+        android:name="com.example.myrvapp.YossiFragment"
+        android:label="fragment_yossi"
+        tools:layout="@layout/fragment_yossi" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.myrvapp.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

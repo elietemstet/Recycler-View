@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MeirFragment" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:src="@drawable/meiradoni" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="40dp"
+        android:text="מאיר אדוני" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@android:color/darker_gray"
+        android:text="שף מאיר אדוני. בן 49. נשוי ואב ל7 ילדים. את לימודי הקולינריה עבר בהצלחה בבתי הספר הטובים בעולם  כגון &quot;קורדון בלו&quot;,&quot;לנוטר&quot;,&quot;ארקדיה&quot;. החל לבשל באופן מקצועי במלון &quot;הולידיי אין קראון פלאזה&quot;. ממסעדותיו:&quot;כתית&quot;,&quot;מזללה&quot;,&quot;בלו סקיי&quot;,&quot;לומינה&quot; ועוד.  בין היתר שפט בתכנית &quot;משחקי השף&quot; יחד עם חבריו השופטים: אסף גרניט , רז רהב, ארז קומרובסקי, יוסי שטרית, ומושיק רוט." />
+</LinearLayout>

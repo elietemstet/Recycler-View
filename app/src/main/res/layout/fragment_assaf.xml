@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AssafFragment" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:src="@drawable/asafgranit" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="40dp"
+        android:text="אסף גרניט" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@android:color/darker_gray"
+        android:text="שף אסף גרניט. בן 44. שף, מסעדן, ואיש עסקים ירושלמי . בעל שם עולמי בתחום המסעדנות . בעל מסעדה שזכתה בכוכב מישלן . מסעדותיו: &quot;פאלומאר&quot;,&quot;מחניודה&quot;,&quot;יודלה&quot;,&quot;מונא&quot;,&quot;הסדנא&quot;,&quot;טלביה&quot;,&quot;ברברי&quot;,&quot;בלאגן&quot;, &quot;שבור&quot;,&quot;דקל 3&quot;,&quot;קואל אופיס&quot;,&quot;צמח&quot;.  גרניט אף משמש כפרזנטור לחברות מובילות בשוק במגוון תחומים. ובין היתר משמש גם כמנחה בתוכנית &quot;משחקי השף&quot; יחד עם חבריו השופטים: ארז קומרובסקי , רז רהב, מאיר אדוני, יוסי שטרית, ומושיק רוט." />
+</LinearLayout>
