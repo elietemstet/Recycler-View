@@ -5,29 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MoshikFragment" >
+    tools:context=".MeirFragment" >
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/darker_gray"
         android:src="@drawable/moshikrot" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="40dp"
-        android:text="מושיק רוט" />
+        android:text=" מושיק רוט" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:background="@android:color/darker_gray"
-        android:text="שף מושיק רוט. בן 51, נשוי ואב לשניים. במקור מחיפה ואח&quot;כ אילת, אך עיקר פעולתו הקולינרית היתה בהולנד. בעל מסעדה שזכתה בשתי כוכבי מישלן(!!).  בין היתר שפט בתכנית &quot;משחקי השף&quot; יחד עם חבריו השופטים: אסף גרניט , רז רהב, ארז קומרובסקי, יוסי שטרית, ומאיר אדוני." />
+        android:text="שף מושיק רוט.                                                    נשוי ואב לשניים, שף ישראלי  שנולד בחיפה וגדל ביבנה אך עיקר פועלו בעבר היה בהולנד עד הקורונה שגרמה לו לחזור לישראל.               בהולנד הקים מסעדה שאף זכתה בשתי כוכבי מישלן ונמנה בין השפים הטובים בעולם.             בין היתר שפט בתכנית משחקי השף יחד עם חבריו השופטים: אסף גרניט, רז רהב, ארז קומורובסקי, יוסי שטרית, ומאיר אדוני."
+        />
 </LinearLayout>

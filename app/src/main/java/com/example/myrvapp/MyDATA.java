@@ -6,15 +6,10 @@ public class MyDATA {
      static String[] versionArray = {"","","","","",""};
 
      static Integer[] drawableArray = {R.drawable.asafgranit,R.drawable.erezkomo ,R.drawable.meiradoni ,
-          R.drawable.moshikrot ,R.drawable.razrahav ,R.drawable.yossichitrit};
+             R.drawable.moshikrot ,R.drawable.razrahav ,R.drawable.yossichitrit};
 
      static Integer[] id_ = {0, 1, 2, 3, 4, 5};
 
 
 
 }
-
-// public static String[] nameArray;
-//    public static String[] versionArray;
-//    public static int[] id_;
-//    public static int[] drawableArray;

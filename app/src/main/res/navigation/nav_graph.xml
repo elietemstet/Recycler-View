@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/yossiFragment">
+    app:startDestination="@id/recyclerViewFragment">
 
     <fragment
         android:id="@+id/assafFragment"
@@ -35,9 +35,28 @@
         android:name="com.example.myrvapp.YossiFragment"
         android:label="fragment_yossi"
         tools:layout="@layout/fragment_yossi" />
-    <activity
-        android:id="@+id/mainActivity"
-        android:name="com.example.myrvapp.MainActivity"
-        android:label="activity_main"
-        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/recyclerViewFragment"
+        android:name="com.example.myrvapp.RecyclerViewFragment"
+        android:label="fragment_recycler_view"
+        tools:layout="@layout/fragment_recycler_view" >
+        <action
+            android:id="@+id/action_recyclerViewFragment_to_assafFragment"
+            app:destination="@id/assafFragment" />
+        <action
+            android:id="@+id/action_recyclerViewFragment_to_erezFragment"
+            app:destination="@id/erezFragment" />
+        <action
+            android:id="@+id/action_recyclerViewFragment_to_meirFragment"
+            app:destination="@id/meirFragment" />
+        <action
+            android:id="@+id/action_recyclerViewFragment_to_razFragment"
+            app:destination="@id/razFragment" />
+        <action
+            android:id="@+id/action_recyclerViewFragment_to_moshikFragment"
+            app:destination="@id/moshikFragment" />
+        <action
+            android:id="@+id/action_recyclerViewFragment_to_yossiFragment"
+            app:destination="@id/yossiFragment" />
+    </fragment>
 </navigation>
